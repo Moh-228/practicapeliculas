@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+}
+body{
+    background-color: #0f1213;
+    color: white;
+}
+#dorado{
+    color: goldenrod;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 15vh;
+    align-items: center;
+}
+
+header h1{
+    font-size: 60px;
+    margin: 0px 5px 0px 20px;
+}
+
+header p{
+    margin-left: 10px;
+    padding-top: 25px;
+}
+
+#contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    height: 79vh;
+    margin: 0px 30px 0px 30px;
+}
+
+aside{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 25%;
+    height: 100%;
+    align-items: center;
+}
+
+aside img{
+    width: 80%;
+}
+
+aside section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 250px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+aside section > p{
+    margin: 5px;
+    background-color: #545454;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 75%;
+    height: 100%;
+}
+
+.contenido{
+    height: 73%;
+}
+
+.contenido img{
+    width: 95%;
+    height: 85%;
+}
+
+.contenido p{
+    margin: 5px 0px 10px 0px;
+}
+.datos {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+article{
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+ul{
+    list-style:circle;
+}
+
+footer{
+    height: 4vh;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #222022;
+    color: white;
+}
